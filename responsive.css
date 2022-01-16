@@ -1,0 +1,224 @@
+/* ---------Common styles */
+body{
+    margin: 10px;
+    background-color: white;
+    font-family: 'Luxurious Roman', cursive;
+    
+}
+/* ---------Header start */
+header{
+    background-color: lightgreen;
+    margin: 2%;
+    
+}
+/* ---------navigation section */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#title{
+    padding-left: 50px;
+    
+}
+#menu-bar{
+    padding-right: 50px;}
+    
+nav ul li{
+    list-style: none;
+    margin: 20px;
+    font-weight: 700;
+}
+nav ul{
+    display: flex;
+}
+/* navigation end */
+/* ------------Intro section */
+.intro{
+    margin-top: 20px;
+    display: flex;
+
+
+
+}
+.intro-detail{
+    height: 270px;
+    width: 582px;
+    padding-left: 50px;
+    width: 100%;
+}
+.intro-detail:hover{
+    padding: 10%;
+    box-shadow: 5px 5px 5px 5px rgba(221, 86, 86, 0.714) ;
+    width: 50%;
+
+}
+.button{
+    background-color: crimson;
+    border: 10px solid crimson;
+    border-radius: 20px;
+    width: 150px;
+    padding: 5px;
+    text-align: center;
+    font-weight: 900;
+
+}
+.intro-img{
+    height: 414px;
+    width: 440px;
+    width: 100%;
+    padding-left: 20px;
+
+}
+/* intro section end */
+/* header end ------------*/
+/* ---------------main start---------------- */
+/* logo section start */
+.logos{
+    margin-top: 50px;
+}
+.logo{
+padding: 20px;
+display: flex;
+justify-content: center;
+}
+.logo img{
+    padding-left: 50px;
+}
+/* logo section end */
+/* popular section start */
+.popular-products{
+
+margin: 2%;
+padding-right: 10px;
+background-color: lightgreen;
+}
+.popular-products h1{
+    margin: 10px;
+    padding-top: 5%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.products{
+    margin: 10px;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 5px
+
+    }
+    .product{
+        margin: 50px;
+    background-color: lightpink;
+    
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(221, 86, 86, 0.714);
+    }
+    .product-banner img{
+        width: 100%;
+        border-radius: 20px;
+
+    }
+
+.product-details{
+    width: 100%;
+    padding:5px;
+    padding-left: 10px;
+    
+
+}
+.ratings{
+display: flex;
+align-items: center;
+color: goldenrod;
+
+}
+.ratings p{
+    padding-left: 20px;
+    color: black;
+}
+.seemore-options{
+    padding: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 700;
+    color: crimson;
+}
+#hidden{
+    visibility: hidden;
+}
+/* popular section end */
+/* extra section start */
+.extra-section{
+    background-color: lightgreen;
+    margin: 2%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    transition: padding ease-in-out 1s;
+} 
+.extra-section:hover{
+    padding: 200px;
+}
+.extra-section span{
+    font-size: 30px;
+    font-weight: 1000;
+}
+.form{
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(221, 86, 86, 0.714);
+    background-color: lightpink;
+    border: 10px solid lightpink;
+    border-radius: 20px;
+    margin: 5%;
+    margin-bottom: 5% ;
+    
+}
+.form:hover{
+    padding: 50px;
+}
+.form-field{
+    padding: 5%;
+    
+    
+}
+.form-field input{
+    background-color: lightgrey;
+    border: 10px solid lightgrey;
+    border-radius: 10px;
+}
+/* extra section end */
+/* ----------------------------------main end---------------------------------- */
+/* footer section start */
+footer{
+    background-color: rgba(220, 20, 60, 0.275);
+    margin: 2%;
+
+}
+.footnotes{
+text-align: center;
+padding: 5px;
+}
+.social-icons{
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    
+}
+/* footer section end----------------------------------------- */
+/* responsive media queries start */
+/* 1. for mobile device */
+@media only screen and (max-width: 688px){
+    header{
+        background-color: lightgreen;
+        margin: 2%;
+        height: 100%;
+        width: 100%;
+    overflow: hidden;}
+}
+    
